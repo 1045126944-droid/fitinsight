@@ -1,0 +1,19 @@
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+.DS_Store
+* 2.*
+
+.env
+.env.*
+!.env.example
+
+work/
+outputs/
+.worktrees/
+private/
+private-data/
+*.private.json
+fitinsight-backup-*.json

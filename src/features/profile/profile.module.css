@@ -1,0 +1,147 @@
+.page {
+  display: grid;
+  gap: 16px;
+  padding-bottom: 24px;
+}
+.page > header p,
+.panel > p {
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+.page > header p:first-child {
+  margin: 0 0 6px;
+  font-weight: 700;
+}
+.page > header p:last-child {
+  margin: 10px 0 0;
+}
+.panel,
+.devPanel {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-section);
+}
+.panel h2,
+.devPanel h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+.panel p,
+.devPanel p {
+  margin: 0;
+}
+.form {
+  display: grid;
+  gap: 12px;
+}
+.form label {
+  display: grid;
+  gap: 6px;
+  font-weight: 650;
+}
+.form input,
+.form select,
+.filePicker input {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 10px;
+  color: var(--text-primary);
+  background: var(--canvas);
+  border: 1px solid var(--divider);
+  border-radius: 10px;
+  font: inherit;
+}
+.primaryButton,
+.secondaryButton,
+.dangerButton,
+.closeButton,
+.dialogActions button,
+.devPanel button {
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: var(--radius-control);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.primaryButton {
+  color: #fff;
+  background: var(--primary-action);
+}
+.secondaryButton,
+.dialogActions button,
+.closeButton,
+.devPanel button {
+  color: var(--text-primary);
+  background: var(--canvas);
+  border: 1px solid var(--divider);
+}
+.dangerButton {
+  color: #fff;
+  background: #a8322e;
+}
+.warning {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid var(--warning);
+  border-radius: 12px;
+}
+.warning p {
+  color: var(--text-primary);
+}
+.hint {
+  margin: 0;
+  color: var(--text-secondary);
+}
+.filePicker {
+  display: grid;
+  gap: 7px;
+  font-weight: 700;
+}
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: grid;
+  align-items: end;
+  background: rgb(0 0 0 / 42%);
+}
+.dialog {
+  display: grid;
+  gap: 16px;
+  max-height: min(88dvh, 680px);
+  overflow: auto;
+  padding: 22px 18px calc(22px + env(safe-area-inset-bottom));
+  background: var(--surface);
+  border-radius: 20px 20px 0 0;
+}
+.dialog h2,
+.dialog p {
+  margin: 0;
+}
+.dialog p {
+  line-height: 1.55;
+}
+.closeButton {
+  justify-self: end;
+}
+.dialogActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+@media (min-width: 720px) {
+  .backdrop {
+    place-items: center;
+    padding: 24px;
+  }
+  .dialog {
+    width: min(100%, 560px);
+    border-radius: var(--radius-section);
+  }
+}

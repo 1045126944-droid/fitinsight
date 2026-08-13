@@ -1,0 +1,174 @@
+.page {
+  display: grid;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 110px;
+  gap: 18px;
+}
+
+.header p {
+  margin: 0 0 7px;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.header button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  gap: 8px;
+  padding: 0 16px;
+  color: var(--text-primary);
+  background: transparent;
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-control);
+  cursor: pointer;
+}
+
+.rangePicker {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 4px;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-control);
+}
+
+.rangePicker button,
+.metricPicker button {
+  min-height: 44px;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 0;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.rangePicker button[aria-pressed='true'] {
+  color: var(--text-primary);
+  background: var(--primary-action);
+  font-weight: 700;
+}
+
+.metricPicker {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.metricPicker::-webkit-scrollbar {
+  display: none;
+}
+
+.metricPicker button {
+  flex: 0 0 auto;
+  padding: 0 14px;
+  border: 1px solid var(--divider);
+  border-radius: 999px;
+}
+
+.metricPicker button[aria-pressed='true'] {
+  color: var(--canvas);
+  background: var(--activity);
+  border-color: var(--activity);
+  font-weight: 700;
+}
+
+.trendPanel {
+  min-height: 420px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-section);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
+}
+
+.panelHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.panelHeader h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.panelHeader span,
+.status,
+.error,
+.emptyChart {
+  color: var(--text-secondary);
+}
+
+.chart {
+  width: 100%;
+  min-width: 0;
+  margin: 20px 0 0;
+  overflow: hidden;
+}
+
+.emptyChart,
+.status,
+.error {
+  display: grid;
+  min-height: 250px;
+  margin: 0;
+  place-items: center;
+  text-align: center;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 1px;
+  margin-top: 20px;
+  overflow: hidden;
+  background: var(--divider);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-control);
+}
+
+.summary div {
+  display: grid;
+  gap: 7px;
+  min-height: 78px;
+  padding: 14px;
+  background: var(--canvas);
+}
+
+.summary span {
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+}
+
+.summary strong {
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.screenReaderOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 430px) {
+  .trendPanel {
+    padding: 18px 12px;
+  }
+}

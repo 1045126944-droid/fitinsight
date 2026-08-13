@@ -1,0 +1,832 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-09T17:24:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "synthetic": true,
+  "coverage": {
+    "startDate": "2026-07-11",
+    "endDate": "2026-08-09",
+    "includedMetrics": [
+      "steps",
+      "activeEnergyKcal",
+      "exerciseMinutes",
+      "standHours",
+      "restingHeartRateBpm",
+      "hrvSdnnMs",
+      "sleep",
+      "workouts",
+      "weightKg",
+      "bodyFatPercentage"
+    ],
+    "mode": "patch"
+  },
+  "dailyRecords": [
+    {
+      "date": "2026-07-11",
+      "steps": 6480,
+      "activeEnergyKcal": 318,
+      "exerciseMinutes": 26,
+      "standHours": 10,
+      "restingHeartRateBpm": 63,
+      "hrvSdnnMs": 41,
+      "sleep": {
+        "start": "2026-07-10T23:04:00+08:00",
+        "end": "2026-07-11T06:30:00+08:00",
+        "totalMinutes": 424,
+        "awakeMinutes": 22,
+        "coreMinutes": 263,
+        "deepMinutes": 68,
+        "remMinutes": 93,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-12",
+      "steps": 8240,
+      "activeEnergyKcal": 452,
+      "exerciseMinutes": 43,
+      "standHours": 12,
+      "restingHeartRateBpm": 62,
+      "hrvSdnnMs": 44,
+      "sleep": {
+        "start": "2026-07-11T22:48:00+08:00",
+        "end": "2026-07-12T06:35:00+08:00",
+        "totalMinutes": 438,
+        "awakeMinutes": 29,
+        "coreMinutes": 263,
+        "deepMinutes": 74,
+        "remMinutes": 101,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-13",
+      "steps": 5120,
+      "activeEnergyKcal": 274,
+      "exerciseMinutes": 17,
+      "standHours": 9,
+      "restingHeartRateBpm": 64,
+      "hrvSdnnMs": 39,
+      "sleep": {
+        "start": "2026-07-12T23:40:00+08:00",
+        "end": "2026-07-13T06:40:00+08:00",
+        "totalMinutes": 397,
+        "awakeMinutes": 23,
+        "coreMinutes": 239,
+        "deepMinutes": 71,
+        "remMinutes": 87,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "steps": 9430,
+      "activeEnergyKcal": 521,
+      "exerciseMinutes": 56,
+      "standHours": 12,
+      "restingHeartRateBpm": 61,
+      "hrvSdnnMs": 47,
+      "sleep": {
+        "start": "2026-07-13T22:43:00+08:00",
+        "end": "2026-07-14T06:45:00+08:00",
+        "totalMinutes": 452,
+        "awakeMinutes": 30,
+        "coreMinutes": 276,
+        "deepMinutes": 72,
+        "remMinutes": 104,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "steps": 7060,
+      "activeEnergyKcal": 361,
+      "exerciseMinutes": 29,
+      "standHours": 11,
+      "restingHeartRateBpm": 62,
+      "hrvSdnnMs": 43,
+      "sleep": {
+        "start": "2026-07-14T23:15:00+08:00",
+        "end": "2026-07-15T06:50:00+08:00",
+        "totalMinutes": 431,
+        "awakeMinutes": 24,
+        "coreMinutes": 263,
+        "deepMinutes": 73,
+        "remMinutes": 95,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "steps": 10820,
+      "activeEnergyKcal": 604,
+      "exerciseMinutes": 64,
+      "standHours": 13,
+      "restingHeartRateBpm": 60,
+      "hrvSdnnMs": 51,
+      "sleep": {
+        "start": "2026-07-15T22:17:00+08:00",
+        "end": "2026-07-16T06:30:00+08:00",
+        "totalMinutes": 462,
+        "awakeMinutes": 31,
+        "coreMinutes": 273,
+        "deepMinutes": 83,
+        "remMinutes": 106,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "steps": 5720,
+      "activeEnergyKcal": 292,
+      "exerciseMinutes": 21,
+      "standHours": 9,
+      "restingHeartRateBpm": 63,
+      "hrvSdnnMs": 40,
+      "sleep": {
+        "start": "2026-07-16T23:22:00+08:00",
+        "end": "2026-07-17T06:35:00+08:00",
+        "totalMinutes": 408,
+        "awakeMinutes": 25,
+        "coreMinutes": 253,
+        "deepMinutes": 65,
+        "remMinutes": 90,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "steps": 7860,
+      "activeEnergyKcal": 418,
+      "exerciseMinutes": 39,
+      "standHours": 11,
+      "restingHeartRateBpm": 61,
+      "hrvSdnnMs": 46,
+      "sleep": {
+        "start": "2026-07-17T22:42:00+08:00",
+        "end": "2026-07-18T06:40:00+08:00",
+        "totalMinutes": 446,
+        "awakeMinutes": 32,
+        "coreMinutes": 267,
+        "deepMinutes": 76,
+        "remMinutes": 103,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "steps": 10240,
+      "activeEnergyKcal": 557,
+      "exerciseMinutes": 61,
+      "standHours": 13,
+      "restingHeartRateBpm": 60,
+      "hrvSdnnMs": 52,
+      "sleep": {
+        "start": "2026-07-18T22:44:00+08:00",
+        "end": "2026-07-19T06:45:00+08:00",
+        "totalMinutes": 455,
+        "awakeMinutes": 26,
+        "coreMinutes": 273,
+        "deepMinutes": 82,
+        "remMinutes": 100,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "steps": 4630,
+      "activeEnergyKcal": 241,
+      "exerciseMinutes": 13,
+      "standHours": 8,
+      "restingHeartRateBpm": 64,
+      "hrvSdnnMs": 38,
+      "sleep": {
+        "start": "2026-07-19T23:48:00+08:00",
+        "end": "2026-07-20T06:50:00+08:00",
+        "totalMinutes": 389,
+        "awakeMinutes": 33,
+        "coreMinutes": 238,
+        "deepMinutes": 62,
+        "remMinutes": 89,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "steps": 8840,
+      "activeEnergyKcal": 486,
+      "exerciseMinutes": 51,
+      "standHours": 12,
+      "restingHeartRateBpm": 61,
+      "hrvSdnnMs": 48,
+      "sleep": {
+        "start": "2026-07-20T22:42:00+08:00",
+        "end": "2026-07-21T06:30:00+08:00",
+        "totalMinutes": 441,
+        "awakeMinutes": 27,
+        "coreMinutes": 269,
+        "deepMinutes": 75,
+        "remMinutes": 97,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "steps": 7350,
+      "activeEnergyKcal": 379,
+      "exerciseMinutes": 32,
+      "standHours": 10,
+      "restingHeartRateBpm": 62,
+      "hrvSdnnMs": 45,
+      "sleep": {
+        "start": "2026-07-21T22:54:00+08:00",
+        "end": "2026-07-22T06:35:00+08:00",
+        "totalMinutes": 427,
+        "awakeMinutes": 34,
+        "coreMinutes": 252,
+        "deepMinutes": 77,
+        "remMinutes": 98,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "steps": 11260,
+      "activeEnergyKcal": 635,
+      "exerciseMinutes": 68,
+      "standHours": 14,
+      "restingHeartRateBpm": 59,
+      "hrvSdnnMs": 55,
+      "sleep": {
+        "start": "2026-07-22T22:24:00+08:00",
+        "end": "2026-07-23T06:40:00+08:00",
+        "totalMinutes": 468,
+        "awakeMinutes": 28,
+        "coreMinutes": 290,
+        "deepMinutes": 75,
+        "remMinutes": 103,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "steps": 6200,
+      "activeEnergyKcal": 306,
+      "exerciseMinutes": 24,
+      "standHours": 10,
+      "restingHeartRateBpm": 63,
+      "hrvSdnnMs": 42,
+      "sleep": {
+        "start": "2026-07-23T23:29:00+08:00",
+        "end": "2026-07-24T06:45:00+08:00",
+        "totalMinutes": 414,
+        "awakeMinutes": 22,
+        "coreMinutes": 249,
+        "deepMinutes": 70,
+        "remMinutes": 95,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "steps": 6840,
+      "activeEnergyKcal": 326,
+      "exerciseMinutes": 28,
+      "standHours": 10,
+      "restingHeartRateBpm": 61,
+      "hrvSdnnMs": 47,
+      "sleep": {
+        "start": "2026-07-24T22:56:00+08:00",
+        "end": "2026-07-25T06:50:00+08:00",
+        "totalMinutes": 445,
+        "awakeMinutes": 29,
+        "coreMinutes": 267,
+        "deepMinutes": 80,
+        "remMinutes": 98,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-26",
+      "steps": 9235,
+      "activeEnergyKcal": 514,
+      "exerciseMinutes": 52,
+      "standHours": 12,
+      "restingHeartRateBpm": 59,
+      "hrvSdnnMs": 52,
+      "sleep": {
+        "start": "2026-07-25T22:36:00+08:00",
+        "end": "2026-07-26T06:30:00+08:00",
+        "totalMinutes": 451,
+        "awakeMinutes": 23,
+        "coreMinutes": 275,
+        "deepMinutes": 72,
+        "remMinutes": 104,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-27",
+      "steps": 7482,
+      "activeEnergyKcal": 352,
+      "exerciseMinutes": 31,
+      "standHours": 11,
+      "restingHeartRateBpm": 60,
+      "hrvSdnnMs": 49,
+      "sleep": {
+        "start": "2026-07-26T22:47:00+08:00",
+        "end": "2026-07-27T06:35:00+08:00",
+        "totalMinutes": 438,
+        "awakeMinutes": 30,
+        "coreMinutes": 268,
+        "deepMinutes": 74,
+        "remMinutes": 96,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "steps": 5126,
+      "activeEnergyKcal": 271,
+      "exerciseMinutes": 18,
+      "standHours": 9,
+      "restingHeartRateBpm": 62,
+      "hrvSdnnMs": 44,
+      "sleep": {
+        "start": "2026-07-27T23:26:00+08:00",
+        "end": "2026-07-28T06:40:00+08:00",
+        "totalMinutes": 410,
+        "awakeMinutes": 24,
+        "coreMinutes": 242,
+        "deepMinutes": 74,
+        "remMinutes": 94,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "steps": 8044,
+      "activeEnergyKcal": 463,
+      "exerciseMinutes": 49,
+      "standHours": 12,
+      "restingHeartRateBpm": 60,
+      "hrvSdnnMs": 50,
+      "sleep": {
+        "start": "2026-07-28T22:47:00+08:00",
+        "end": "2026-07-29T06:45:00+08:00",
+        "totalMinutes": 447,
+        "awakeMinutes": 31,
+        "coreMinutes": 277,
+        "deepMinutes": 72,
+        "remMinutes": 98,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "steps": 6388,
+      "activeEnergyKcal": 309,
+      "exerciseMinutes": 26,
+      "standHours": 10,
+      "restingHeartRateBpm": 61,
+      "hrvSdnnMs": 46,
+      "sleep": {
+        "start": "2026-07-29T23:16:00+08:00",
+        "end": "2026-07-30T06:50:00+08:00",
+        "totalMinutes": 429,
+        "awakeMinutes": 25,
+        "coreMinutes": 257,
+        "deepMinutes": 73,
+        "remMinutes": 99,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "steps": 10542,
+      "activeEnergyKcal": 568,
+      "exerciseMinutes": 61,
+      "standHours": 13,
+      "restingHeartRateBpm": 58,
+      "hrvSdnnMs": 55,
+      "sleep": {
+        "start": "2026-07-30T22:23:00+08:00",
+        "end": "2026-07-31T06:30:00+08:00",
+        "totalMinutes": 455,
+        "awakeMinutes": 32,
+        "coreMinutes": 273,
+        "deepMinutes": 82,
+        "remMinutes": 100,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "steps": 8761,
+      "activeEnergyKcal": 522,
+      "exerciseMinutes": 57,
+      "standHours": 12,
+      "restingHeartRateBpm": 59,
+      "hrvSdnnMs": 53,
+      "sleep": {
+        "start": "2026-07-31T22:30:00+08:00",
+        "end": "2026-08-01T06:35:00+08:00",
+        "totalMinutes": 459,
+        "awakeMinutes": 26,
+        "coreMinutes": 280,
+        "deepMinutes": 73,
+        "remMinutes": 106,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "steps": 4289,
+      "activeEnergyKcal": 236,
+      "exerciseMinutes": 14,
+      "standHours": 8,
+      "restingHeartRateBpm": 63,
+      "hrvSdnnMs": 42,
+      "sleep": {
+        "start": "2026-08-01T23:35:00+08:00",
+        "end": "2026-08-02T06:40:00+08:00",
+        "totalMinutes": 392,
+        "awakeMinutes": 33,
+        "coreMinutes": 239,
+        "deepMinutes": 67,
+        "remMinutes": 86,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "steps": 7740,
+      "activeEnergyKcal": 441,
+      "exerciseMinutes": 46,
+      "standHours": 11,
+      "restingHeartRateBpm": 61,
+      "hrvSdnnMs": 48,
+      "sleep": {
+        "start": "2026-08-02T22:55:00+08:00",
+        "end": "2026-08-03T06:45:00+08:00",
+        "totalMinutes": 443,
+        "awakeMinutes": 27,
+        "coreMinutes": 261,
+        "deepMinutes": 80,
+        "remMinutes": 102,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "steps": 6917,
+      "activeEnergyKcal": 334,
+      "exerciseMinutes": 29,
+      "standHours": 10,
+      "restingHeartRateBpm": 60,
+      "hrvSdnnMs": 45,
+      "sleep": {
+        "start": "2026-08-03T23:10:00+08:00",
+        "end": "2026-08-04T06:50:00+08:00",
+        "totalMinutes": 426,
+        "awakeMinutes": 34,
+        "coreMinutes": 264,
+        "deepMinutes": 68,
+        "remMinutes": 94,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "steps": 11218,
+      "activeEnergyKcal": 607,
+      "exerciseMinutes": 68,
+      "standHours": 14,
+      "restingHeartRateBpm": 58,
+      "hrvSdnnMs": 57,
+      "sleep": {
+        "start": "2026-08-04T22:21:00+08:00",
+        "end": "2026-08-05T06:30:00+08:00",
+        "totalMinutes": 461,
+        "awakeMinutes": 28,
+        "coreMinutes": 277,
+        "deepMinutes": 78,
+        "remMinutes": 106,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "steps": 5823,
+      "activeEnergyKcal": 288,
+      "exerciseMinutes": 22,
+      "standHours": 9,
+      "restingHeartRateBpm": 62,
+      "hrvSdnnMs": 43,
+      "sleep": {
+        "start": "2026-08-05T23:28:00+08:00",
+        "end": "2026-08-06T06:35:00+08:00",
+        "totalMinutes": 405,
+        "awakeMinutes": 22,
+        "coreMinutes": 243,
+        "deepMinutes": 73,
+        "remMinutes": 89,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "steps": 9814,
+      "activeEnergyKcal": 539,
+      "exerciseMinutes": 59,
+      "standHours": 13,
+      "restingHeartRateBpm": 59,
+      "hrvSdnnMs": 54,
+      "sleep": {
+        "start": "2026-08-06T22:42:00+08:00",
+        "end": "2026-08-07T06:40:00+08:00",
+        "totalMinutes": 449,
+        "awakeMinutes": 29,
+        "coreMinutes": 274,
+        "deepMinutes": 72,
+        "remMinutes": 103,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "steps": 7368,
+      "activeEnergyKcal": 372,
+      "exerciseMinutes": 34,
+      "standHours": 11,
+      "restingHeartRateBpm": 60,
+      "hrvSdnnMs": 49,
+      "sleep": {
+        "start": "2026-08-07T23:10:00+08:00",
+        "end": "2026-08-08T06:45:00+08:00",
+        "totalMinutes": 432,
+        "awakeMinutes": 23,
+        "coreMinutes": 264,
+        "deepMinutes": 73,
+        "remMinutes": 95,
+        "source": "Synthetic Apple Watch"
+      }
+    },
+    {
+      "date": "2026-08-09",
+      "steps": 10420,
+      "activeEnergyKcal": 648,
+      "exerciseMinutes": 58,
+      "standHours": 12,
+      "restingHeartRateBpm": 59,
+      "hrvSdnnMs": 51,
+      "sleep": {
+        "start": "2026-08-08T23:39:00+08:00",
+        "end": "2026-08-09T06:50:00+08:00",
+        "totalMinutes": 401,
+        "awakeMinutes": 30,
+        "coreMinutes": 237,
+        "deepMinutes": 72,
+        "remMinutes": 92,
+        "source": "Synthetic Apple Watch"
+      }
+    }
+  ],
+  "workouts": [
+    {
+      "rawType": "Traditional Strength Training",
+      "localDate": "2026-07-12",
+      "start": "2026-07-12T18:18:00+08:00",
+      "end": "2026-07-12T19:02:00+08:00",
+      "durationMinutes": 44,
+      "activeEnergyKcal": 248,
+      "distanceMeters": null,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Pool Swimming",
+      "localDate": "2026-07-14",
+      "start": "2026-07-14T16:25:00+08:00",
+      "end": "2026-07-14T17:08:00+08:00",
+      "durationMinutes": 43,
+      "activeEnergyKcal": 292,
+      "distanceMeters": 1250,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Running",
+      "localDate": "2026-07-16",
+      "start": "2026-07-16T06:32:00+08:00",
+      "end": "2026-07-16T07:06:00+08:00",
+      "durationMinutes": 34,
+      "activeEnergyKcal": 311,
+      "distanceMeters": 5200,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Traditional Strength Training",
+      "localDate": "2026-07-18",
+      "start": "2026-07-18T18:39:00+08:00",
+      "end": "2026-07-18T19:25:00+08:00",
+      "durationMinutes": 46,
+      "activeEnergyKcal": 259,
+      "distanceMeters": null,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Pool Swimming",
+      "localDate": "2026-07-20",
+      "start": "2026-07-20T16:46:00+08:00",
+      "end": "2026-07-20T17:31:00+08:00",
+      "durationMinutes": 45,
+      "activeEnergyKcal": 306,
+      "distanceMeters": 1350,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Running",
+      "localDate": "2026-07-22",
+      "start": "2026-07-22T06:19:00+08:00",
+      "end": "2026-07-22T06:55:00+08:00",
+      "durationMinutes": 36,
+      "activeEnergyKcal": 329,
+      "distanceMeters": 5480,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Traditional Strength Training",
+      "localDate": "2026-07-24",
+      "start": "2026-07-24T18:26:00+08:00",
+      "end": "2026-07-24T19:08:00+08:00",
+      "durationMinutes": 42,
+      "activeEnergyKcal": 237,
+      "distanceMeters": null,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Pool Swimming",
+      "localDate": "2026-07-26",
+      "start": "2026-07-26T16:33:00+08:00",
+      "end": "2026-07-26T17:17:00+08:00",
+      "durationMinutes": 44,
+      "activeEnergyKcal": 299,
+      "distanceMeters": 1400,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Traditional Strength Training",
+      "localDate": "2026-07-29",
+      "start": "2026-07-29T18:40:00+08:00",
+      "end": "2026-07-29T19:23:00+08:00",
+      "durationMinutes": 43,
+      "activeEnergyKcal": 242,
+      "distanceMeters": null,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Running",
+      "localDate": "2026-07-31",
+      "start": "2026-07-31T06:47:00+08:00",
+      "end": "2026-07-31T07:22:00+08:00",
+      "durationMinutes": 35,
+      "activeEnergyKcal": 321,
+      "distanceMeters": 5320,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Pool Swimming",
+      "localDate": "2026-08-01",
+      "start": "2026-08-01T16:20:00+08:00",
+      "end": "2026-08-01T17:06:00+08:00",
+      "durationMinutes": 46,
+      "activeEnergyKcal": 314,
+      "distanceMeters": 1450,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Traditional Strength Training",
+      "localDate": "2026-08-03",
+      "start": "2026-08-03T18:27:00+08:00",
+      "end": "2026-08-03T19:09:00+08:00",
+      "durationMinutes": 42,
+      "activeEnergyKcal": 236,
+      "distanceMeters": null,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Running",
+      "localDate": "2026-08-05",
+      "start": "2026-08-05T06:34:00+08:00",
+      "end": "2026-08-05T07:11:00+08:00",
+      "durationMinutes": 37,
+      "activeEnergyKcal": 338,
+      "distanceMeters": 5740,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Traditional Strength Training",
+      "localDate": "2026-08-07",
+      "start": "2026-08-07T18:41:00+08:00",
+      "end": "2026-08-07T19:25:00+08:00",
+      "durationMinutes": 44,
+      "activeEnergyKcal": 247,
+      "distanceMeters": null,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Pool Swimming",
+      "localDate": "2026-08-08",
+      "start": "2026-08-08T16:48:00+08:00",
+      "end": "2026-08-08T17:34:00+08:00",
+      "durationMinutes": 46,
+      "activeEnergyKcal": 319,
+      "distanceMeters": 1500,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    },
+    {
+      "rawType": "Traditional Strength Training",
+      "localDate": "2026-08-09",
+      "start": "2026-08-09T18:21:00+08:00",
+      "end": "2026-08-09T19:09:00+08:00",
+      "durationMinutes": 48,
+      "activeEnergyKcal": 268,
+      "distanceMeters": null,
+      "source": "Synthetic Apple Watch",
+      "device": "Synthetic Apple Watch Series"
+    }
+  ],
+  "bodyMeasurements": [
+    {
+      "date": "2026-07-11",
+      "measuredAt": "2026-07-11T07:18:00+08:00",
+      "weightKg": 84.1,
+      "bodyFatPercentage": 29.7,
+      "source": "Synthetic smart scale"
+    },
+    {
+      "date": "2026-07-15",
+      "measuredAt": "2026-07-15T07:18:00+08:00",
+      "weightKg": 83.9,
+      "bodyFatPercentage": 29.6,
+      "source": "Synthetic smart scale"
+    },
+    {
+      "date": "2026-07-19",
+      "measuredAt": "2026-07-19T07:18:00+08:00",
+      "weightKg": 83.7,
+      "bodyFatPercentage": 29.5,
+      "source": "Synthetic smart scale"
+    },
+    {
+      "date": "2026-07-23",
+      "measuredAt": "2026-07-23T07:18:00+08:00",
+      "weightKg": 83.5,
+      "bodyFatPercentage": 29.4,
+      "source": "Synthetic smart scale"
+    },
+    {
+      "date": "2026-07-27",
+      "measuredAt": "2026-07-27T07:18:00+08:00",
+      "weightKg": 83.4,
+      "bodyFatPercentage": 29.3,
+      "source": "Synthetic smart scale"
+    },
+    {
+      "date": "2026-07-31",
+      "measuredAt": "2026-07-31T07:18:00+08:00",
+      "weightKg": 83.2,
+      "bodyFatPercentage": 29.2,
+      "source": "Synthetic smart scale"
+    },
+    {
+      "date": "2026-08-04",
+      "measuredAt": "2026-08-04T07:18:00+08:00",
+      "weightKg": 83,
+      "bodyFatPercentage": 29,
+      "source": "Synthetic smart scale"
+    },
+    {
+      "date": "2026-08-09",
+      "measuredAt": "2026-08-09T07:18:00+08:00",
+      "weightKg": 82.9,
+      "bodyFatPercentage": 28.9,
+      "source": "Synthetic smart scale"
+    }
+  ],
+  "source": "fitinsight-shortcut-synthetic-example"
+}

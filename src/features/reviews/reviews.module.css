@@ -1,0 +1,179 @@
+.page {
+  display: grid;
+  gap: 20px;
+}
+.header,
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.header {
+  min-height: 110px;
+}
+.header p,
+.reviewHeader p,
+.comparison > p,
+.metric p {
+  margin: 0;
+  color: var(--text-secondary);
+}
+.header p,
+.reviewHeader p {
+  margin-bottom: 7px;
+  font-size: 0.85rem;
+}
+.header button,
+.exportMenu button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  gap: 8px;
+  padding: 0 16px;
+  color: var(--text-primary);
+  background: transparent;
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-control);
+  cursor: pointer;
+}
+.picker {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 4px;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-control);
+}
+.picker button {
+  min-height: 44px;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 0;
+  border-radius: 11px;
+  cursor: pointer;
+}
+.picker button[aria-pressed='true'] {
+  color: var(--text-primary);
+  background: var(--primary-action);
+  font-weight: 700;
+}
+.statePage {
+  display: grid;
+  min-height: 360px;
+  place-items: center;
+  text-align: center;
+}
+.statePage > p {
+  color: var(--text-secondary);
+}
+.review {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-section);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
+}
+.reviewHeader h2,
+.comparison h2,
+.insights h2,
+.metric h3 {
+  margin: 0;
+}
+.reviewHeader h2 {
+  font-size: 1.1rem;
+}
+.status {
+  flex: 0 0 auto;
+  padding: 6px 10px;
+  border: 1px solid var(--divider);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.status[data-status='inProgress'] {
+  color: var(--activity);
+}
+.status[data-status='insufficient'] {
+  color: var(--text-secondary);
+}
+.comparison {
+  display: grid;
+  gap: 10px;
+}
+.comparison > p {
+  font-size: 0.85rem;
+}
+.metricList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  background: var(--divider);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-control);
+}
+.metric {
+  min-width: 0;
+  min-height: 128px;
+  padding: 14px;
+  background: var(--canvas);
+}
+.metric h3 {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.metric strong {
+  display: block;
+  margin: 12px 0 8px;
+  overflow-wrap: anywhere;
+  font-size: 1.05rem;
+  font-variant-numeric: tabular-nums;
+}
+.metric p {
+  font-size: 0.75rem;
+  line-height: 1.55;
+}
+.insights {
+  display: grid;
+  gap: 14px;
+}
+.insights > div,
+.nextAction {
+  padding: 16px;
+  background: color-mix(in srgb, var(--canvas) 76%, transparent);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-control);
+}
+.insights ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+.nextAction p {
+  margin: 10px 0 0;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+.exportMenu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.exportMenu button {
+  flex: 1 1 130px;
+  min-height: 44px;
+}
+@media (max-width: 430px) {
+  .review {
+    padding: 18px 12px;
+  }
+  .reviewHeader {
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,30 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  [data-review-print],
+  [data-review-print] * {
+    visibility: visible;
+  }
+
+  .app-shell__navigation,
+  [data-review-controls],
+  [data-review-export],
+  button,
+  [role='dialog'] {
+    display: none !important;
+  }
+
+  .app-shell__content {
+    width: 100%;
+    min-height: auto;
+    padding: 0;
+  }
+  [data-review-print] {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    box-shadow: none;
+  }
+}

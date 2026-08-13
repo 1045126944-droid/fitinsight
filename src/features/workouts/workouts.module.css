@@ -1,0 +1,282 @@
+.page {
+  display: grid;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 110px;
+  gap: 18px;
+}
+
+.header p,
+.dialogHeader p {
+  margin: 0 0 7px;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.header button,
+.dialogHeader button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  min-height: 48px;
+  gap: 8px;
+  color: var(--text-primary);
+  background: transparent;
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-control);
+  cursor: pointer;
+}
+
+.header button {
+  padding: 0 16px;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.filters::-webkit-scrollbar {
+  display: none;
+}
+
+.filters button {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 0 16px;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid var(--divider);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.filters button[aria-pressed='true'] {
+  color: var(--canvas);
+  background: var(--activity);
+  border-color: var(--activity);
+  font-weight: 700;
+}
+
+.list {
+  display: grid;
+  gap: 24px;
+}
+
+.list h2 {
+  margin: 0 0 10px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 620;
+}
+
+.group {
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-section);
+}
+
+.card + .card {
+  border-top: 1px solid var(--divider);
+}
+
+.card button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 86px;
+  gap: 14px;
+  padding: 14px 16px;
+  color: var(--text-primary);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.icon {
+  display: grid;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  color: var(--action);
+  background: color-mix(in srgb, var(--action) 12%, transparent);
+  border-radius: 50%;
+  place-items: center;
+}
+
+.cardCopy {
+  display: grid;
+  min-width: 0;
+  flex: 1;
+  gap: 4px;
+}
+
+.cardCopy strong {
+  font-size: 1rem;
+}
+
+.cardCopy span,
+.cardCopy small,
+.disclosure,
+.status,
+.filteredEmpty {
+  color: var(--text-secondary);
+}
+
+.cardCopy span {
+  font-size: 0.82rem;
+}
+
+.cardCopy small {
+  overflow: hidden;
+  font-size: 0.75rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.disclosure {
+  font-size: 1.6rem;
+}
+
+.status,
+.filteredEmpty {
+  min-height: 260px;
+  margin: 0;
+  padding-top: 88px;
+  text-align: center;
+}
+
+.statePage {
+  display: grid;
+  min-height: 420px;
+  place-items: center;
+}
+
+.dialogBackdrop {
+  position: fixed;
+  z-index: 30;
+  inset: 0;
+  display: grid;
+  align-items: end;
+  padding-top: var(--safe-area-inset-top);
+  background: rgb(0 0 0 / 58%);
+}
+
+.dialogPanel {
+  width: min(100%, var(--content-max));
+  max-height: calc(92dvh - var(--safe-area-inset-top));
+  margin: 0 auto;
+  padding: 22px 20px calc(28px + var(--safe-area-inset-bottom));
+  overflow-y: auto;
+  background: var(--canvas);
+  border: 1px solid var(--divider);
+  border-bottom: 0;
+  border-radius: 24px 24px 0 0;
+  box-shadow: 0 -16px 48px rgb(0 0 0 / 28%);
+}
+
+.dialogHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.dialogHeader h1 {
+  margin: 0;
+  font-size: 1.55rem;
+}
+
+.dialogHeader button {
+  flex: 0 0 48px;
+}
+
+.detailList {
+  margin: 24px 0 0;
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-section);
+}
+
+.detailList div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 16px;
+}
+
+.detailList div + div {
+  border-top: 1px solid var(--divider);
+}
+
+.detailList dt {
+  color: var(--text-secondary);
+}
+
+.detailList dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.detailSection {
+  margin-top: 28px;
+}
+
+.detailSection h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.zoneList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
+  gap: 8px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zoneList li {
+  display: grid;
+  gap: 5px;
+  padding: 14px;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-control);
+}
+
+.zoneList strong {
+  color: var(--recovery);
+}
+
+.zoneList small {
+  color: var(--text-secondary);
+}
+
+@media (min-width: 760px) {
+  .dialogBackdrop {
+    align-items: center;
+    padding: 24px;
+  }
+
+  .dialogPanel {
+    border-bottom: 1px solid var(--divider);
+    border-radius: 24px;
+  }
+}
