@@ -6,12 +6,19 @@ import { SyncSheet } from './SyncSheet'
 import { makeNormalizedEnvelope } from '../../tests/fixtures/health-envelope'
 
 beforeEach(() => {
+  const shanghaiOptions = new Intl.DateTimeFormat('zh-CN', {
+    timeZone: 'Asia/Shanghai',
+  }).resolvedOptions()
+  vi.spyOn(Intl.DateTimeFormat.prototype, 'resolvedOptions').mockReturnValue(
+    shanghaiOptions,
+  )
   vi.useFakeTimers({ shouldAdvanceTime: true })
   vi.setSystemTime(new Date('2026-08-09T18:00:00+08:00'))
 })
 
 afterEach(() => {
   vi.useRealTimers()
+  vi.restoreAllMocks()
 })
 
 function makePreparedImport(
